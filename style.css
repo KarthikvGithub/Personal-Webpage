@@ -84,17 +84,20 @@ h2{
 
 .skills{
     background-color: rgb(126, 160, 197);
-    margin: 0 15% 0 15%;
+    margin: 0 15% 5% 15%;
     border-radius: 15px;
+    padding-bottom: 20px;
+    padding-top : 2px;
     /* height: 200px;
     width: 200px; */
 }
 
 .edu{
     background-color: rgb(126, 160, 197);
-    margin: 0 15% 0 15%;
+    margin: 0 15% 5% 15%;
     border-radius: 15px;
     padding-bottom: 20px;
+    padding-top: 2px;
     /* height: 200px;
     width: 200px; */
 }
@@ -129,3 +132,74 @@ h2{
 /* font-family: 'Libre Baskerville', serif;
 font-family: 'Lobster', cursive;
 font-family: 'Montserrat', sans-serif; */
+
+@media(max-width: 600px){
+ 
+    h1{
+        font-size: 30px;
+    }
+    
+    h2{
+        font-size: 15px;
+    }
+    
+    .hero p{
+        font-size: 10px;
+    }
+    
+    .work p{
+        font-size: 12px;
+    }
+    
+    .work h3{
+        font-size: 12px;
+    }
+    
+    .about p{
+        font-size: 12px;
+    }
+    
+    .about img{
+        height: 100px;
+    }
+    
+    .hero{
+        background-repeat: no-repeat;
+        position: relative;
+        padding: 20px 50vw 30px 10px;
+        color: rgb(126, 160, 197);
+        height: 40vh;
+        text-align: center;
+    }
+    
+    .about{
+        padding: 50px 20px 0 20px;
+    }
+    
+    .work{
+        padding: 0;
+        margin : 0;
+    }
+
+    .work div{
+        width: 200px;
+        margin : 35px;
+    }
+    
+    .projects{
+        padding: 10px;
+        margin-bottom: 30px;
+        font-size: 12px;
+        display: block;
+    }
+    
+    .projects div{
+        padding: 0 40px 10px 20px;
+        text-align: left;
+        align-items: center;
+    }
+    
+    .footer{
+        height: 100px;
+    }
+}
